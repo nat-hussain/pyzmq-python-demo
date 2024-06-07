@@ -2,6 +2,8 @@
 
 In this repo you will find a simple example of how to use pyzmq to communicate between threads using the multiprocessing module in Python.
 
+We use an XSUB/XPUB socket pair to create a simple pub/sub system. The publisher sends a message to the subscriber, and the subscriber prints the message in a white screen using pygame. 
+
 ## Step-by-step to run this demo ## 
 
 ### Installation
@@ -18,7 +20,7 @@ pip install -r requirements.txt
 
 To run the demo, execute te file in app/main.py or use the following command:
 ```bash
-python '.\app\main,py'
+python '.\app\main.py'
 ```
 
 ## Utilities
